@@ -1,11 +1,5 @@
 package solution
 
-// you can also use imports, for example:
-// import "os"
-
-// you can write to stdout for debugging purposes, e.g.
-// fmt.Println("this is a debug message")
-
 func Solution(A []int, K int) []int {
     if len(A) <= 0 || K == 0 {
         return A
