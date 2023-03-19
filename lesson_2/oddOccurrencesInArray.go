@@ -8,7 +8,7 @@ func Solution(A []int) int {
     }
 
     sort.Ints(A)
-    for i := 0; i < len(A); i = i + 2 {
+    for i := 0; i < len(A) - 1; i = i + 2 {
         if A[i] != A[i+1] {
             return A[i]
         }
